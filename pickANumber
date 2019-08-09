@@ -1,0 +1,21 @@
+#for pythonista
+
+import random
+#import ui
+
+nameValDict = {"Eli":3,"James":8,"Peter":1}
+
+randPick = random.randint(0,10)
+
+diffNamesDict=[]
+
+for nameVal in nameValDict:
+  valDiff = abs(nameValDict[nameVal]-2)
+  print (f"{nameVal:} has diff of {valDiff}")
+  diffNamesDict.append(valDiff)
+
+#print(randPick)
+print (diffNamesDict)
+
+#view=ui.load_view('pickANumber')
+#view.present('fullscreen')
