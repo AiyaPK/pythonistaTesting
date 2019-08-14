@@ -1,0 +1,55 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{19, 17}, {208, 400}}",
+        "class" : "TextView",
+        "attributes" : {
+          "flex" : "WH",
+          "font_size" : 17,
+          "editable" : true,
+          "frame" : "{{25, 93}, {200, 200}}",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "uuid" : "321F3204-DA80-4198-B42C-38BAE28DD612",
+          "alignment" : "left",
+          "autocorrection_type" : "default",
+          "name" : "results",
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{82, 425}, {80, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "closeme",
+          "frame" : "{{83, 226}, {80, 32}}",
+          "title" : "Close",
+          "uuid" : "80A515FD-85AF-4D9E-9D1B-63C78DB4A4B9",
+          "class" : "Button",
+          "name" : "closer",
+          "font_size" : 15
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {246, 484}}",
+    "class" : "View",
+    "attributes" : {
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "name" : "popout",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]

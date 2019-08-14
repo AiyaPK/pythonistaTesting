@@ -12,8 +12,8 @@ class PickANum(ui.View):
     self.v_main=ui.load_view('pickANumber')
     self.v_main.present('fullscreen')
 
-  def rank(self, sender):
-
+  def rank(sender):
+    print ("hello")
     def closeme(sender):
       self.v_results.close()
 
