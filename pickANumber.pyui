@@ -8,15 +8,15 @@
         "frame" : "{{38, 60}, {99, 32}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "name_0",
+          "font_size" : 17,
           "frame" : "{{70, 270}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "CBEBE468-27CC-49B4-BFF8-685D547D50E7",
           "alignment" : "center",
-          "text" : "Hailey",
+          "text" : "Ted",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "name_0",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -34,10 +34,10 @@
           "class" : "TextField",
           "uuid" : "CBEBE468-27CC-49B4-BFF8-685D547D50E7",
           "alignment" : "center",
-          "text" : "Isaac",
+          "text" : "Randy",
           "autocorrection_type" : "default",
-          "name" : "name_1",
-          "font_size" : 17
+          "font_size" : 17,
+          "name" : "name_1"
         },
         "selected" : false
       },
@@ -56,8 +56,8 @@
           "alignment" : "center",
           "text" : "0",
           "autocorrection_type" : "default",
-          "font_size" : 17,
-          "name" : "minNum"
+          "name" : "minNum",
+          "font_size" : 17
         },
         "selected" : false
       },
@@ -68,7 +68,7 @@
         "frame" : "{{173, 20}, {99, 32}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "maxNum",
+          "font_size" : 17,
           "frame" : "{{70, 270}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
@@ -76,7 +76,7 @@
           "alignment" : "center",
           "text" : "100",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "maxNum",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -96,8 +96,8 @@
           "alignment" : "center",
           "text" : "30",
           "autocorrection_type" : "default",
-          "name" : "num_0",
-          "font_size" : 17
+          "font_size" : 17,
+          "name" : "num_0"
         },
         "selected" : false
       },
@@ -108,7 +108,7 @@
         "frame" : "{{192, 100}, {99, 32}}",
         "class" : "TextField",
         "attributes" : {
-          "font_size" : 17,
+          "name" : "num_1",
           "frame" : "{{70, 270}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
@@ -116,7 +116,7 @@
           "alignment" : "center",
           "text" : "",
           "autocorrection_type" : "default",
-          "name" : "num_1",
+          "font_size" : 17,
           "font_name" : "<System>"
         },
         "selected" : false
@@ -128,15 +128,15 @@
         "frame" : "{{38, 140}, {99, 32}}",
         "class" : "TextField",
         "attributes" : {
-          "font_size" : 17,
+          "name" : "name_2",
           "frame" : "{{70, 270}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "CBEBE468-27CC-49B4-BFF8-685D547D50E7",
           "alignment" : "center",
-          "text" : "Jayce",
+          "text" : "Taylor",
           "autocorrection_type" : "default",
-          "name" : "name_2",
+          "font_size" : 17,
           "font_name" : "<System>"
         },
         "selected" : false
@@ -148,15 +148,15 @@
         "frame" : "{{38, 180}, {99, 32}}",
         "class" : "TextField",
         "attributes" : {
-          "font_size" : 17,
+          "name" : "name_3",
           "frame" : "{{70, 270}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
           "uuid" : "CBEBE468-27CC-49B4-BFF8-685D547D50E7",
           "alignment" : "center",
-          "text" : "Silas",
+          "text" : "Jenna",
           "autocorrection_type" : "default",
-          "name" : "name_3",
+          "font_size" : 17,
           "font_name" : "<System>"
         },
         "selected" : false
@@ -176,8 +176,8 @@
           "alignment" : "center",
           "text" : "2",
           "autocorrection_type" : "default",
-          "font_size" : 17,
-          "name" : "num_2"
+          "name" : "num_2",
+          "font_size" : 17
         },
         "selected" : false
       },
@@ -196,8 +196,8 @@
           "alignment" : "center",
           "text" : "85",
           "autocorrection_type" : "default",
-          "font_size" : 17,
-          "name" : "num_3"
+          "name" : "num_3",
+          "font_size" : 17
         },
         "selected" : false
       },
@@ -235,8 +235,8 @@
           "alignment" : "center",
           "text" : "Ella",
           "autocorrection_type" : "default",
-          "font_size" : 17,
-          "name" : "name_4"
+          "name" : "name_4",
+          "font_size" : 17
         },
         "selected" : false
       },
@@ -253,10 +253,10 @@
           "class" : "TextField",
           "uuid" : "CBEBE468-27CC-49B4-BFF8-685D547D50E7",
           "alignment" : "center",
-          "text" : "Nathan",
+          "text" : "Carl",
           "autocorrection_type" : "default",
-          "font_size" : 17,
-          "name" : "name_5"
+          "name" : "name_5",
+          "font_size" : 17
         },
         "selected" : false
       },
@@ -267,7 +267,7 @@
         "frame" : "{{192, 220}, {99, 32}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "num_4",
+          "font_size" : 17,
           "frame" : "{{70, 270}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
@@ -275,7 +275,7 @@
           "alignment" : "center",
           "text" : "37",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "num_4",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -287,7 +287,7 @@
         "frame" : "{{192, 260}, {99, 32}}",
         "class" : "TextField",
         "attributes" : {
-          "name" : "num_5",
+          "font_size" : 17,
           "frame" : "{{70, 270}, {200, 32}}",
           "spellchecking_type" : "default",
           "class" : "TextField",
@@ -295,7 +295,7 @@
           "alignment" : "center",
           "text" : "85",
           "autocorrection_type" : "default",
-          "font_size" : 17,
+          "name" : "num_5",
           "font_name" : "<System>"
         },
         "selected" : false
@@ -304,11 +304,11 @@
     "frame" : "{{0, 0}, {340, 571}}",
     "class" : "View",
     "attributes" : {
-      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "name" : "",
       "enabled" : true,
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
       "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
       "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
-      "name" : "",
       "flex" : ""
     },
     "selected" : false
