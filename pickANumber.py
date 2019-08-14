@@ -3,24 +3,39 @@
 import random
 import ui
 
-class PickANum(ui.View):
-  v_main = None
-  v_results = None
+def rank(sender):
+	print ('test')
 
-  def __init__(self):
+	def closeme(sender):
+		v_results.close()
+		
 
-    self.v_main=ui.load_view('pickANumber')
-    self.v_main.present('fullscreen')
+	minNum = int(v_main['minNum'].text)
+	maxNum = int(v_main['maxNum'].text)
+	randPick = random.randint(minNum,maxNum)
+	valDict={}
+		
+	v_results=ui.load_view('pANpopout')
+	v_results.present('poppver')
+	
+	resultViewBox = v_results['results']
+	resultViewBox.text=('hi')
+	for i in range (3):
+		resultViewBox.text+=('jello\n')
+
+
+v_main=ui.load_view('pickANumber')
+v_main.present('fullscreen')
+
+
+'''
+
 
   def rank(sender):
     print ("hello")
     def closeme(sender):
       self.v_results.close()
 
-    minNum = int(self.v_main['minNum'].text)
-    maxNum = int(self.v_main['maxNum'].text)
-    randPick = random.randint(minNum,maxNum)
-    valDict={}
 
     for i in range(6):
       iName='name_'+str(i)
@@ -45,3 +60,4 @@ class PickANum(ui.View):
     resultViewBox.data_source=resultList
 
 PickANum()
+'''
