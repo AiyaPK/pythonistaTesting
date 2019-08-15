@@ -4,11 +4,9 @@ import random
 import ui
 
 def rank(sender):
-	print ('test')
 
 	def closeme(sender):
 		v_results.close()
-		
 
 	minNum = int(v_main['minNum'].text)
 	maxNum = int(v_main['maxNum'].text)
